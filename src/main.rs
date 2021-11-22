@@ -16,7 +16,7 @@ fn main() {
     let _ = fs::remove_dir_all("out/");
     fs::create_dir("out/").expect("unable to create directory");
 
-    // the index is the gifter and the value is the gifte
+    // the index is the gifter and the value is the giftee
     let arr = gen_arr();
         
     for (i, element) in arr.iter().enumerate() {
