@@ -5,7 +5,7 @@ use std::process::Command;
 
 use std::fs;
 
-const PEOPLE: [&str; 6] = ["Carson", "Chris", "Daniel", "Aaron", "Mikayla", "Moriah"]; 
+const PEOPLE: [&str; 6] = [...redacted or smth...]; 
 
 
 
